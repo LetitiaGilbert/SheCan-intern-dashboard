@@ -12,6 +12,36 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 =======
-# SheCan-intern-dashboard
 
->>>>>>> 49ffe1f84d90865e4f7c1ece15632cbe8e73ab3c
+# 🧡 SheCan Intern Dashboard
+
+A responsive and dynamic dashboard built for SheCan Interns to track their referrals, rewards, and leaderboard ranking — with modern UI/UX and smooth animations.
+
+## Features
+
+-  **Login Page** with no authentication
+-  **Intern Dashboard**:
+  - Displays intern name, referral code, amount raised
+  - Dynamic reward progress bar
+  - Manual logout and session timeout support
+  - Dark/Light mode toggle
+-  **Copy Referral Code** button with clipboard functionality
+-  **Animated Leaderboard** (with Framer Motion)
+-  **Intern Profile Section**:
+  - Profile photo, email, join date (from dummy backend or Firebase)
+-  **Raise Donations CTA**:
+  - Eye-catching call-to-action to share referral link
+-  Fully themed in **Orange, Black, and White**
+
+---
+
+## 🛠 Tech Stack
+
+| Frontend | State | Backend | Database |
+|----------|-------|------------|---------------------|----------------------|
+| React    | useState/useEffect | Express.js | MongoDB |
+
+---
+
+## 📁 Project Structure
+
