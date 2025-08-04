@@ -35,7 +35,7 @@ A responsive and dynamic dashboard built for SheCan Interns to track their refer
 
 ---
 
-## 📁 Project Structure (Frontend Only)
+## 📁 Project Structure 
 
 ```bash
 intern-portal/
@@ -55,8 +55,8 @@ intern-portal/
 ## Tech Stack
 
 | Frontend | State | Backend | Database |
-|----------|-------|------------|---------------------|----------------------|
-| React    | useState/useEffect | Express.js | MongoDB |
+|----------|-------|------------|---------------------|
+| React | useState/useEffect | Express.js | MongoDB |
 
 ---
 
