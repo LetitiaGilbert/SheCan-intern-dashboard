@@ -21,21 +21,38 @@ A responsive and dynamic dashboard built for SheCan Interns to track their refer
 
 -  **Login Page** with no authentication
 -  **Intern Dashboard**:
-  - Displays intern name, referral code, amount raised
-  - Dynamic reward progress bar
-  - Manual logout and session timeout support
-  - Dark/Light mode toggle
+   Displays intern name, referral code, amount raised
+   Dynamic reward progress bar
+   Manual logout and session timeout support
+   Dark/Light mode toggle
 -  **Copy Referral Code** button with clipboard functionality
 -  **Animated Leaderboard** (with Framer Motion)
 -  **Intern Profile Section**:
-  - Profile photo, email, join date (from dummy backend or Firebase)
+   Profile photo, email, join date (from dummy backend or Firebase)
 -  **Raise Donations CTA**:
-  - Eye-catching call-to-action to share referral link
+   Eye-catching call-to-action to share referral link
 -  Fully themed in **Orange, Black, and White**
 
 ---
 
-## 🛠 Tech Stack
+## 📁 Project Structure (Frontend Only)
+
+```bash
+intern-portal/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── context/
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+## Tech Stack
 
 | Frontend | State | Backend | Database |
 |----------|-------|------------|---------------------|----------------------|
@@ -43,5 +60,16 @@ A responsive and dynamic dashboard built for SheCan Interns to track their refer
 
 ---
 
-## 📁 Project Structure
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/LetitiaGilbert/SheCan-intern-dashboard.git
+cd SheCan-intern-dashboard
+npm install
+npm run dev
+```
+
 
